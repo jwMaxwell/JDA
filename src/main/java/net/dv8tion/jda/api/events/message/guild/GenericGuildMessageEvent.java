@@ -40,9 +40,9 @@ public abstract class GenericGuildMessageEvent extends GenericGuildEvent
     }
 
     /**
-     * The message id
+     * The Snowflake id of the message. This is unique to every entity and will never change.
      *
-     * @return The message id
+     * @return The Snowflake id of the message. This is unique to every entity and will never change.
      */
     @Nonnull
     public String getMessageId()
@@ -51,9 +51,9 @@ public abstract class GenericGuildMessageEvent extends GenericGuildEvent
     }
 
     /**
-     * The message id
+     * The Snowflake id of the message. This is unique to every entity and will never change.
      *
-     * @return The message id
+     * @return The Snowflake id of the message. This is unique to every entity and will never change.
      */
     public long getMessageIdLong()
     {
